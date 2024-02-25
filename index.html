@@ -5,104 +5,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        <!-- *{
+        *{
             margin: 0%;
             padding: 0%;
-        } -->
-        nav{
+        }
+        .listnav{
 
             text-align: center;
         }
         a{
             text-decoration: none;
+            color: black;
         }
         input{
             text-align: right;
-            color:  rgb(188, 185, 181);
+            color:  rgba(205, 210, 218, 0.836);
         }
         header{
-            background-color: rgba(17, 13, 13, 0.836);
-            color: rgb(188, 185, 181);
+            background-color: #07cc24;
+            color:rgb(21, 19, 19);
+            position: fixed;
+            width: 100%
             
+        }
+        form{
+            text-align: left;
         }
         nav{
             text-decoration: none;
             text-align: center;
             list-style: none;
-            
-            text-decoration-color:  rgb(188, 185, 181);
+            color: rgb(21, 19, 19);
+            word-spacing: 10px;
         }
         h1{
             margin: 7.5 7.5 7.5 8.5;
             padding: 15px;
             
         }
-        main{
-            background-color: rgba(182, 177, 177, 0.825);
-            
-            
+        footer details{
+            color: rgba(205, 210, 218, 0.836);
+            float: left;
+            width: 31%;
+            margin: 11px;
+            padding: 3px;
+            transform: none;
         }
         body{
-            background-color: whitesmoke;
+            background-color: rgb(33, 1, 33);
         }
-        footer{
-            background-color: rgb(46, 43, 43);
-            color: rgb(188, 185, 181);
+       
+        
+        section div{
+            
+            margin: 10px;
+            padding: 10px;
+            float: left;
+            width: 23.4%;
+            box-sizing: border-box;
+            height: 220px;
+            border-radius: 5px;
+            color: azure;
+            margin-top: 90px;
+
+        }
+        img{
+            border: 2px solid red;
+            border-radius: 5px;
+            width: 85%;
+
+        }
+       .pp1{
+            color: azure;
+            
+
+        }
+        .pp2{
+            color: azure;
+            width: 70%;
+            margin: 12px;
+            padding: 4px;
+            text-align: center;
+
+        }
+        .li1 li{
+            list-style: none;
+        
+        }
+         nav a:hover{
+            font-size: smaller;
+            color: rgb(62, 10, 10);
+            
         }
     </style>
 </head>
-<body><header>
+<body>
+    <header>
     
     <h1 style="text-align: center;">APNA WATCH</h1>
-    <nav>
-        <a href="">Sell Watch</a><b>|</b> 
-        <a href="">Contact Us</a><b>|</b>
-        <a href="">Twiter</a><b>|</b>
-        <a href="">Instagram</a>
-        
-        
+    <nav style="text-align: left;">
+        <a href=""><b>Home</b></a>
+        <a href=""><b>ContactUs</b></a>
+        <a href=""><b>Twiter</b></a>
+        <a href=""><b>Instagram</b></a>
+        <a href=""><b>SellWatch</b></a> 
     </nav>
-    <strong>search</strong><input type="search">
     <hr>
-</header>
+</header>    
 
-    <main>
-        <details>
-            <summary>Watch</summary>
-            <ul title="">All watch
-                <li><a href=""></a>Rolex</li>
-                 <li><a href=""></a>Tudor</li>
-                 <li><a href=""></a>Omega</li>
-                 <li><a href=""></a>Tag Heuer</li>
-                 <li><a href=""></a>Cartier</li>
-                 <li><a href=""></a>HUblot</li>
-                 <li><a href=""></a>G-Shock</li>
-                 <li><a href=""></a>Smert-Watch</li>
-            </ul>
-        </details>
-        <details>
-            <summary>Retailer Brands</summary>
-            <ul title="">Official Retailer<p>We are an Official Retailer <br> a few selected brands.</p>
-                <li><a href=""></a>Halda</li>
-                 <li><a href=""></a>Cisco</li>
-                 <li><a href=""></a>Epoch</li>
-                 <li><a href=""></a>Everest</li>
-            </ul>
-        </details>
-        <details>
-            <summary>INFO</summary>
-            <ul>
-                <li><a href=""></a>Contact Us</li>
-                 <li><a href=""></a>About Us</li>
-                 <li><a href=""></a>Mentions</li>
-                 <li><a href=""></a>Media</li>
-                 <li><a href=""></a>Trusted Seller</li>
-            </ul>
-        </details>
-        <hr>
-    </main>
+    
+    <!-- row1 -->
+    <section>
+        
+        
+        <div><img src="./alvaro-bernal-RgIKRYhmG2k-unsplash.jpg" alt="" width="50%">
+        <p class="p1">G-Shock $200</p>
+        </div>
+        <div><img src="./2.jpg.jpg" alt="" width="50%"> <p class="p2">G-Shock $150</p>
+        </div>
+        <div><img src="./julius-drost-uumkdaVS8rM-unsplash.jpg" alt="" width="50%">
+             <p class="p3">G-Shock $120</p>
+        </div>
+        <div><img src="./welcheuhr-SM4fFGCgtss-unsplash.jpg" alt="" width="50%"><p class="p4">G-Shock $170</p></div>
+        
+        
+    </section>
+    <!-- row2 -->
+    <section>
+        <div><img src="./tigran-hambardzumyan-kUT-D_J0SDo-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./teng-yuhong-P0Pjf0KGNbg-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./peng-productions-MQs3wF6APLY-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./peng-productions-6hLsTO0c440-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+    </section>
+    <!-- row3 -->
+    <section>
+        <div><img src="./paul-cuoco-CO2vOhPqlrM-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./norbert-buduczki-OhYJn7MkK00-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./moritz-kindler-8RcqeAN50_U-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./laurenz-heymann-al6s6JpnZis-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+    </section>
+    <!-- row4 -->
+    <section>
+        <div><img src="./kilyan-sockalingum-FAlefSetxdQ-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./julius-drost-uumkdaVS8rM-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./john-torcasio-TJrkkhdB39E-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./efe-yagiz-soysal-drCEI21OBNA-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+    </section>
+    <!-- row5 -->
+    <section>
+        <div><img src="./deepal-tamang-c6SI48yg2gE-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./deepal-tamang-c6SI48yg2gE-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./1.jpg.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+        <div><img src="./alvaro-bernal-RgIKRYhmG2k-unsplash.jpg" alt="" width="50%"> <p class="p1">G-Shock $200</p></div>
+    </section>
     <footer>
-        <P style="text-align: center;">&copy Apna Watch</P>
-        </footer>
+              <!-- <from>  <strong>Search</strong><input type="Search" required placeholder="search products"></from> -->
+               <br>
+               <div class="oneline">
+               <div class="li1">
+               <details open>
+                    <summary><strong>WATCH</strong></summary>
+                    <ol>All watch
+                        <li><a href=""></a>Rolex</li>
+                         <li><a href=""></a>Tudor</li>
+                         <li><a href=""></a>Omega</li>
+                         <li><a href=""></a>Tag Heuer</li>
+                         <li><a href=""></a>Cartier</li>
+                         <li><a href=""></a>HUblot</li>
+                         <li><a href=""></a>G-Shock</li>
+                         <li><a href=""></a>Smert-Watch</li>
+                    </ol><br>
+                </details>
+                </div>
+                <div class="li2">
+                <details open>
+                    <summary><strong>RETAILER BRANDS</strong></summary>
+                    <ul title="">Official Retailer:<p class="pp1">We are an Official Retailer<br> a few selected brands.</p>
+                        <li><a href=""></a>Halda</li>
+                         <li><a href=""></a>Cisco</li>
+                         <li><a href=""></a>Epoch</li>
+                         <li><a href=""></a>Everest</li>
+                    </ul><br>
+                </details open>
+                </div>
+                <div class="li3">
+                <details open>
+                    <summary><strong>INFO</strong></summary>
+                    <ul type="1">
+                        <li><a href=""></a>Contact Us</li>
+                         <li><a href=""></a>About Us</li>
+                         <li><a href=""></a>Mentions</li>
+                         <li><a href=""></a>Media</li>
+                         <li><a href=""></a>Trusted Seller</li>
+                    </ul>
+                </details>
+                </div>
+               </div>
+               <div class="hover2">
+                <p class="pp2">&copy;2024;Apna watch</p>
+               </div>
+    </footer>
 </body>
 </html>
